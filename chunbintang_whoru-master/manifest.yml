@@ -1,0 +1,21 @@
+---
+applications:
+# replace the 'host' variable below with your own unique one, as this one can be already taken
+- name: TestFacePhpNavya
+  memory: 128M
+  instances: 1
+  host: testfacephpnavya
+  path: ./php
+
+
+#   applications:
+# - path: ./php
+#   memory: 128M
+#   instances: 1
+#   domain: mybluemix.net
+#   name: TestFacePhpNavya
+#   host: testfacephpnavya
+#   disk_quota: 1024M
+#   services:
+#   - Visual Recognition-01
+#   buildpack: php_buildpack
